@@ -15,8 +15,8 @@ export class DsDocumentProcessingModule {
 
   private _http: HttpClient;
   private _baseUrl: string = 'https://trial.dsserver.io';
-  private _clientId: string = 'dsserver.MpgG1DH4XpueDblkrRTUWASud2Lvl3Xx';
-  private _clientSecret: string = 'RQSupqYENdUhtYBx5A1nu9HkiDy5LzgO';
+  private _clientId: string = 'clientid';
+  private _clientSecret: string = 'clientsecret';
   private _urlMerge: string = '/documentprocessing/document/merge';
   private _urlOAuth: string = '/oauth';
 
